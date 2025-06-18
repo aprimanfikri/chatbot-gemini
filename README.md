@@ -2,6 +2,19 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+# Setting Up Gemini API Key in Next.js
+
+## Environment Configuration
+
+To use the Gemini API in your Next.js project, you'll need to add your API key to the environment variables.
+
+### 1. Create/Edit Environment File
+
+Create a `.env.local` file in your project root (or edit if it exists) and add:
+
+````env
+GEMINI_API_KEY=your_api_key_here
+
 First, run the development server:
 
 ```bash
@@ -12,7 +25,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+````
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
